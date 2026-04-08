@@ -1,8 +1,6 @@
-# local variable 
+from datetime import datetime
 
-num = 10   #int 
-num1 = 10.5 #float
+def showtime() -> None:
+    print("This is the current time: ",datetime.now())
 
-
-print("push as uni")
-print("push as yewit")
+showtime()
